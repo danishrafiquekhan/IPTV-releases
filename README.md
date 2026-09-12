@@ -1,6 +1,6 @@
-**Signal IPTV — Downloads**
+**Relay IPTV — Downloads**
 
-Installers for **Signal IPTV**, a desktop IPTV player for macOS and Windows.
+Installers for **Relay IPTV**, a desktop IPTV player for macOS and Windows.
 This repo hosts builds only — there is no source code here.
 
 **Which file to download**
@@ -9,13 +9,13 @@ Go to [**Releases**](../../releases/latest) and grab the file for your machine:
 
 | Platform | File |
 |---|---|
-| Apple Silicon (M1/M2/M3/M4) | `Signal-IPTV-x.y.z-arm64.dmg` |
-| Intel Mac | `Signal-IPTV-x.y.z.dmg` |
-| Windows | `Signal-IPTV-Setup-x.y.z.exe` |
+| Apple Silicon (M1/M2/M3/M4) | `Relay-IPTV-x.y.z-arm64.dmg` |
+| Intel Mac | `Relay-IPTV-x.y.z.dmg` |
+| Windows | `Relay-IPTV-Setup-x.y.z.exe` |
 
 **Installing on macOS**
 
-1. Open the `.dmg` and drag **Signal IPTV** into **Applications**.
+1. Open the `.dmg` and drag **Relay IPTV** into **Applications**.
 2. Launch it from Applications (not from the mounted disk image).
 
 **"Apple could not verify this app is free of malware"**
@@ -26,7 +26,7 @@ past it:
 
 1. Click **Done** on the warning dialog.
 2. Open **System Settings → Privacy & Security**, scroll to the bottom, and
-   click **Open Anyway** next to the mention of Signal IPTV.
+   click **Open Anyway** next to the mention of Relay IPTV.
 3. Launch the app again and click **Open Anyway** on the second prompt.
    macOS remembers this choice permanently after that.
 
@@ -34,13 +34,13 @@ If the app is blocked outright or quits immediately on launch, clear the
 quarantine flag and re-sign it locally from Terminal:
 
 ```bash
-xattr -cr "/Applications/Signal IPTV.app"
-codesign --force --deep --sign - "/Applications/Signal IPTV.app"
+xattr -cr "/Applications/Relay IPTV.app"
+codesign --force --deep --sign - "/Applications/Relay IPTV.app"
 ```
 
 **Installing on Windows**
 
-1. Run `Signal-IPTV-Setup-x.y.z.exe`.
+1. Run `Relay-IPTV-Setup-x.y.z.exe`.
 2. Choose an install location (or accept the default) and finish the wizard.
 
 **"Windows protected your PC" (SmartScreen)**
